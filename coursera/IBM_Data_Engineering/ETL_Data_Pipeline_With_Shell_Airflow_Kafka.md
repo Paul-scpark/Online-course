@@ -29,7 +29,7 @@
     - Transformations: 사용자의 의도 및 요구대로 데이터를 변환시키는 과정
 
 <figure style="text-align: center;">
-    <img src="https://cdn.buttercms.com/rdSqAjSiRqy6hk7PCCVU" width="700" height="700">
+    <img src="https://cdn.buttercms.com/rdSqAjSiRqy6hk7PCCVU" width="800" height="500">
     <figcaption align="center">https://www.integrate.io/ko/blog/etl-vs-elt-5-critical-differences-ko/</figcaption>
 </figure> 
 <br/>
@@ -55,7 +55,7 @@
 - Anonymizing, Encrypting (암호화 및 익명화)
 - Cleaning, Normalizing, Filtering, Sorting, Aggregating, Binning, Joining
 - `Schema-on-write`는 ETL에서 사용되는 일반적 접근으로, 로드하기 전에 정의된 스키마를 준수해야 하는 것. 안전성 있게 데이터를 일관되게 구조화할 수 있지만, 다양성을 제한할 수도 있음
-- `Schema-on-read`는 ELT 접근 방식과 관련 있고, 여기서 스키마는 Raw data에 적용. 엄격한 절차가 없기 때문에 잠재적으로 더 많은 데이터에 접근할 수 있음
+- `Schema-on-read`는 ELT 접근 방식과 관련 있고, 여기서 스키마는 Raw data에 적용. 엄격한 절차가 없어서 잠재적으로 더 많은 데이터에 접근할 수 있음
 - 일반적으로 Raw data는 변환된 데이터보다 훨씬 큰데, ETL에서는 변환 과정에서 일부 데이터를 손실하게 될 수 있음. 하지만 ELT에서는 데이터를 그대로 복사하여 정보를 손실시키지 않음
 
 ## 5. 데이터 Loading 기술
@@ -73,7 +73,7 @@
 - Data Mart: 영업, 재무, 마케팅 등 단일 주제 등에 중점을 둔 단순한 형태의 데이터 웨어하우스
 
 <figure style="text-align: center;">
-    <img src="https://content.altexsoft.com/media/2021/08/data-mart-vs-data-warehouse-vs-data-lake-architect.png.webp" width="700" height="700">
+    <img src="https://content.altexsoft.com/media/2021/08/data-mart-vs-data-warehouse-vs-data-lake-architect.png.webp" width="700" height="400">
     <figcaption align="center">https://www.altexsoft.com/blog/what-is-data-mart/</figcaption>
 </figure> 
 <br/>
