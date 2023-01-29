@@ -1,16 +1,4 @@
----
-title: ETL & Data Pipelines with Shell, Airflow and Kafka 1주차
-date: 2023-01-27 00:00:00 +0900
-categories: [Education, Coursera]
-tags: [AI, Deep learning, Machine learning, Data Engineering, Airflow, Kafka, ETL, ELT]
-description: Coursera - ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 강의 요약
-toc: true
-toc_sticky: true
-toc_label: 목차
-math: true
-mermaid: true
-
----
+# ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 1주차
 
 이번 글에서는 [Coursera의 ETL and Data Pipelines with Shell, Airflow and Kafka (IBM)](https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka/home/info) 1주차 강의를 정리합니다. <br/>
 이 강좌는 ETL 및 ELT 데이터 파이프라인에 대해 학습하며, Airflow와 Kafka 등을 이용해 이를 배우게 됩니다. <br/>
