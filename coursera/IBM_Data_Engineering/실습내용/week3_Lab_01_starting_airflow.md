@@ -4,12 +4,14 @@
     <img src = "../data/Week3_Lab_01.png">
     <figcaption align="center">수업 자료 - Start Apache Airflow</figcaption>
 </figure> 
-<br/>
+<br/><br/>
 
 <figure style="text-align: center;">
-    <img src = "../data/Week3_Lab_01.png">
+    <img src = "../data/Week3_Lab_02.png">
     <figcaption align="center">수업 자료 - Open the Airflow Web UI</figcaption>
 </figure> 
+<br/><br/>
+
 <br/>
 
 ```bash
