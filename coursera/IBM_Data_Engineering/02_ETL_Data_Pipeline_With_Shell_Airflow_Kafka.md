@@ -1,16 +1,4 @@
----
-title: ETL & Data Pipelines with Shell, Airflow and Kafka 2주차
-date: 2023-01-27 00:00:00 +0900
-categories: [Education, Coursera]
-tags: [AI, Deep learning, Machine learning, Data Engineering, Airflow, Kafka, ETL, ELT]
-description: Coursera - ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 강의 요약
-toc: true
-toc_sticky: true
-toc_label: 목차
-math: true
-mermaid: true
-
----
+# ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 2주차
 
 이번 글에서는 [Coursera의 ETL and Data Pipelines with Shell, Airflow and Kafka (IBM)](https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka/home/info) 2주차 강의를 정리합니다. <br/>
 이 강좌는 ETL 및 ELT 데이터 파이프라인에 대해 학습하며, Airflow와 Kafka 등을 이용해 이를 배우게 됩니다. <br/>
@@ -32,7 +20,7 @@ mermaid: true
 - Shell을 통해 작업을 자동화할 수도 있음
 
 <figure style="text-align: center;">
-    <img src="https://hiseon.me/wp-content/uploads/2019/07/bash-start.png" width="700" height="700">
+    <img src="https://hiseon.me/wp-content/uploads/2019/07/bash-start.png" width="800" height="300">
     <figcaption align="center">https://hiseon.me/linux/linux-shell-script-example/</figcaption>
 </figure> 
 <br/>
@@ -113,7 +101,7 @@ mermaid: true
     - 데이터가 생성되는 즉시 연속 스트림을 처리하는 것 (실시간 분석)
 
 <figure style="text-align: center;">
-    <img src="https://velog.velcdn.com/images/roo333/post/b9be72e3-55ca-4d1e-955f-c908c4fabb7c/image.png" width="700" height="700">
+    <img src="https://velog.velcdn.com/images/roo333/post/b9be72e3-55ca-4d1e-955f-c908c4fabb7c/image.png" width="1000" height="700">
     <figcaption align="center">https://velog.io/@roo333/%EB%B0%B0%EC%B9%98-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1-VS-%EC%8A%A4%ED%8A%B8%EB%A6%BC-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1</figcaption>
 </figure> 
 <br/>
@@ -126,7 +114,7 @@ mermaid: true
     - Least Response Time 방식: 서버의 현재 연결 상태와 응답시간을 모두 고려하여 트래픽을 배분
 
 <figure style="text-align: center;">
-    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FllMx6%2FbtqKxQTfpKV%2FtQbWvFHMgSu4sLanPQFHUK%2Fimg.jpg" width="700" height="700">
+    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FllMx6%2FbtqKxQTfpKV%2FtQbWvFHMgSu4sLanPQFHUK%2Fimg.jpg" width="1000" height="700">
     <figcaption align="center">https://icarus8050.tistory.com/101</figcaption>
 </figure> 
 <br/>
@@ -141,7 +129,7 @@ mermaid: true
     - Serving Layer: 배치 레이어와 스피드 레이어의 출력을 저장
 
 <figure style="text-align: center;">
-    <img src="https://ok-data.github.io/assets/Lambda_Arch/2020-07-16-17-17-13.png" width="700" height="700">
+    <img src="https://ok-data.github.io/assets/Lambda_Arch/2020-07-16-17-17-13.png" width="1000" height="700">
     <figcaption align="center">https://ok-data.github.io/2020/06/20/Lambda_Arch/</figcaption>
 </figure> 
 <br/>
