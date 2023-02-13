@@ -1,16 +1,4 @@
----
-title: ETL & Data Pipelines with Shell, Airflow and Kafka 3주차
-date: 2023-01-27 00:00:00 +0900
-categories: [Education, Coursera]
-tags: [AI, Deep learning, Machine learning, Data Engineering, Airflow, Kafka, ETL, ELT]
-description: Coursera - ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 강의 요약
-toc: true
-toc_sticky: true
-toc_label: 목차
-math: true
-mermaid: true
-
----
+# ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 2주차
 
 이번 글에서는 [Coursera의 ETL and Data Pipelines with Shell, Airflow and Kafka (IBM)](https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka/home/info) 3주차 강의를 정리합니다. <br/>
 이 강좌는 ETL 및 ELT 데이터 파이프라인에 대해 학습하며, Airflow와 Kafka 등을 이용해 이를 배우게 됩니다. <br/>
@@ -40,7 +28,7 @@ mermaid: true
 - DAG는 태스크 (수행할 작업들)들 사이의 종속성과 실행 순서를 지정
 
 <figure style="text-align: center;">
-    <img src="https://airflow.apache.org/docs/apache-airflow/stable/_images/arch-diag-basic.png" width="700" height="700">
+    <img src="https://airflow.apache.org/docs/apache-airflow/stable/_images/arch-diag-basic.png" width="1000" height="700">
     <figcaption align="center">https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html</figcaption>
 </figure> 
 <br/>
@@ -73,7 +61,7 @@ mermaid: true
     - 라이브러리 불러오기, DAG Arguments, DAG 정의, 태스크 정의, 태스크 파이프라인
 
 <figure style="text-align: center;">
-    <img src="https://storage.googleapis.com/analyticsmayhem-blog-files/dbt-airflow/sample%20dag%20definition.png" width="700" height="700">
+    <img src="https://storage.googleapis.com/analyticsmayhem-blog-files/dbt-airflow/sample%20dag%20definition.png" width="1000" height="700">
     <figcaption align="center">https://analyticsmayhem.com/dbt/schedule-dbt-models-with-apache-airflow/</figcaption>
 </figure> 
 <br/>
@@ -90,7 +78,7 @@ mermaid: true
     - 각 행에는 다음과 같은 환경의 DAG에 대한 대화형 정보가 표시 (DAG 이름, 스케줄, Owner, 최근 태스크 등)
 
 <figure style="text-align: center;">
-    <img src="https://airflow.apache.org/docs/apache-airflow/1.10.6/_images/dags.png" width="700" height="700">
+    <img src="https://airflow.apache.org/docs/apache-airflow/1.10.6/_images/dags.png" width="1000" height="500">
     <figcaption align="center">https://airflow.apache.org/docs/apache-airflow/1.10.6/ui.html</figcaption>
 </figure> 
 <br/>
@@ -99,7 +87,7 @@ mermaid: true
     - 각 실행에 대한 작업의 상태를 타임라인 형태로 보여주고, 기본 날짜와 실행 횟수를 선택할 수도 있음
 
 <figure style="text-align: center;">
-    <img src="https://airflow.apache.org/docs/apache-airflow/1.10.6/_images/tree.png" width="700" height="700">
+    <img src="https://airflow.apache.org/docs/apache-airflow/1.10.6/_images/tree.png" width="1000" height="500">
     <figcaption align="center">https://airflow.apache.org/docs/apache-airflow/1.10.6/ui.html</figcaption>
 </figure> 
 <br/>
@@ -108,7 +96,7 @@ mermaid: true
     - DAG의 작업과 종속성을 확인할 수 있고, 각 작업은 연산자 유형에 따라 색으로 구분
 
 <figure style="text-align: center;">
-    <img src="https://airflow.apache.org/docs/apache-airflow/1.10.6/_images/graph.png" width="700" height="700">
+    <img src="https://airflow.apache.org/docs/apache-airflow/1.10.6/_images/graph.png" width="1000" height="500">
     <figcaption align="center">https://airflow.apache.org/docs/apache-airflow/1.10.6/ui.html</figcaption>
 </figure> 
 <br/>
