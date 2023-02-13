@@ -1,4 +1,4 @@
-# ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 2주차
+# ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 3주차
 
 이번 글에서는 [Coursera의 ETL and Data Pipelines with Shell, Airflow and Kafka (IBM)](https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka/home/info) 3주차 강의를 정리합니다. <br/>
 이 강좌는 ETL 및 ELT 데이터 파이프라인에 대해 학습하며, Airflow와 Kafka 등을 이용해 이를 배우게 됩니다. <br/>
