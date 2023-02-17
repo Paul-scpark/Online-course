@@ -1,16 +1,4 @@
----
-title: ETL & Data Pipelines with Shell, Airflow and Kafka 4주차
-date: 2023-01-27 00:00:00 +0900
-categories: [Education, Coursera]
-tags: [AI, Deep learning, Machine learning, Data Engineering, Airflow, Kafka, ETL, ELT]
-description: Coursera - ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 강의 요약
-toc: true
-toc_sticky: true
-toc_label: 목차
-math: true
-mermaid: true
-
----
+# ETL and Data Pipelines with Shell, Airflow and Kafka (IBM) 4주차
 
 이번 글에서는 [Coursera의 ETL and Data Pipelines with Shell, Airflow and Kafka (IBM)](https://www.coursera.org/learn/etl-and-data-pipelines-shell-airflow-kafka/home/info) 4주차 강의를 정리합니다. <br/>
 이 강좌는 ETL 및 ELT 데이터 파이프라인에 대해 학습하며, Airflow와 Kafka 등을 이용해 이를 배우게 됩니다. <br/>
@@ -45,7 +33,7 @@ mermaid: true
     - 다양한 Event Source와 Destination을 처리하기 위해서는, `ESP (Event Stream Platform)`을 사용해야 함
 
 <figure style="text-align: center;">
-    <img src="https://media.geeksforgeeks.org/wp-content/uploads/FTP.jpg" width="700" height="700">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/FTP.jpg" width="1000" height="700">
     <figcaption align="center">https://www.geeksforgeeks.org/file-transfer-protocol-ftp-in-application-layer/</figcaption>
 </figure> 
 <br/>
@@ -58,7 +46,7 @@ mermaid: true
     - Popular ESP는 Kafka, Kinesis, Flink, Spark, Storm 등이 있음
 
 <figure style="text-align: center;">
-    <img src="https://miro.medium.com/max/1400/1*QCs3M2PKJV7qSsDlsTzw4w.png" width="700" height="700">
+    <img src="https://miro.medium.com/max/1400/1*QCs3M2PKJV7qSsDlsTzw4w.png" width="1000" height="700">
     <figcaption align="center">https://blog.devgenius.io/event-processing-platform-4d950c4ff3e3</figcaption>
 </figure> 
 <br/>
@@ -83,7 +71,7 @@ mermaid: true
     - Email, 텍스트 메시지 등과 같이 Notification을 생성할 수도 있음
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_1.png">
+    <img src = "data/230128_1.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -109,7 +97,7 @@ mermaid: true
     - Client 사이드에서는 서버와 통신하기 위해 Kafka CLI나 자바나 파이썬 같은 클라이언트를 제공
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_2.png">
+    <img src = "data/230128_2.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -133,7 +121,7 @@ mermaid: true
 - 즉, 아래 그림과 같이 log topic과 user topic이 두 파티션으로 구분되고, 복제되어 서로 다른 Broker에 저장
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_3.png">
+    <img src = "data/230128_3.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -143,7 +131,7 @@ mermaid: true
     - Create a topic, List topics, Get topics details, Delete a topics
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_4.png">
+    <img src = "data/230128_4.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -157,7 +145,7 @@ mermaid: true
     - 이때, 프로그램의 이름이나 사용자 ID 같은 Key 값으로 이벤트를 연결할 수도 있음
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_5.png">
+    <img src = "data/230128_5.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -167,7 +155,7 @@ mermaid: true
     - Key를 주는 경우에는, 사용자 1에 대한 모든 Event가 동일한 파티션에 저장되어 Consumer가 사용할 것
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_6.png">
+    <img src = "data/230128_6.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -182,7 +170,7 @@ mermaid: true
 - 그리고 Kafka는 Consumer에게 Event를 push하고, Consumer는 Event Destination으로 보냄
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_7.png">
+    <img src = "data/230128_7.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -194,7 +182,7 @@ mermaid: true
     - 가끔씩 사용자가 처음부터 모든 Event를 읽고자 한다면, 옵션을 추가해주면 됨
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_8.png">
+    <img src = "data/230128_8.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -211,7 +199,7 @@ mermaid: true
 - 마지막으로는 앞서 만든 DB로부터 데이터를 활용해 대시보드를 만들고 시각화 및 분석을 진행할 수 있음
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_9.png">
+    <img src = "data/230128_9.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -228,7 +216,7 @@ mermaid: true
     - 그 Topic은 Consumer로 전달 및 처리되고, 시각화를 위해 대시보드 등에 전달
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_10.png">
+    <img src = "data/230128_10.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -241,7 +229,7 @@ mermaid: true
     - Kafka Streams API는 한 번에 하나의 레코드만 처리
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_11.png">
+    <img src = "data/230128_11.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -254,7 +242,7 @@ mermaid: true
     - Sink 프로세서: Producer처럼 받은 Streams을 Kafka Topic으로 Publish 하는 역할
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_12.png">
+    <img src = "data/230128_12.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
@@ -268,7 +256,7 @@ mermaid: true
 - 이러한 방식은 처리해야 할 Topic의 수가 많은 경우에 Ad hoc 데이터 프로세서보다 훨씬 더 쉬운 방법
 
 <figure style="text-align: center;">
-    <img src = "../../assets/img/post_img/230128_13.png">
+    <img src = "data/230128_13.png">
     <figcaption align="center">수업 자료</figcaption>
 </figure> 
 <br/>
